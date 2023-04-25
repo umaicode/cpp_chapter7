@@ -2,6 +2,8 @@
 
 class Date{
     // private 데이터
+    // private로 놓는 이유는 이 변수에 대한 변경은 Date 클래스에서만 하기 위해서.
+    // data 멤버는 거의 private.
     int month;
     int day;
     int year;

@@ -49,6 +49,8 @@ int BirthDate :: Age (Date d){
     /*
     int newday = day;
     int newmonth = month;
+    // 접근 권한이 없기 때문에 사용 불가능.
+    // 그렇기 때문에 d.Day() 이런거 쓰는거임.
     */
     int years = (d.Year () - Year ()); //현재의 생일로부터 d까지의 년 수
                //생일이 날짜 d 이후면, 나이는 두 날짜 간의 연도 차이보다 작다day

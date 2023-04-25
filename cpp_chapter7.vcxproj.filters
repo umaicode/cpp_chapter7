@@ -77,7 +77,7 @@
     <ClInclude Include="7장-8.RECCOL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="7장_13-1.COLOR.h">
+    <ClInclude Include="7장-13-1.COLOR.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

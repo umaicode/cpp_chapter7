@@ -7,6 +7,11 @@ public:
     BirthDate (int m, int d, int y) :
     Date (m, d, y){}
 
+    //BirthDate(int m, int d, int y) {
+    //    month = m, date = d, year = y
+    //    이거 못가져옴. Date의 필드에 대한 접근 권한은 BirthDate한테 없다
+    //}
+
     //현재 생일로부터 날짜 d 까지의 사람 나이를 return 한다
     //(즉, 현재로부터 태어난 해까지의 년 수)
     int Age (Date d);

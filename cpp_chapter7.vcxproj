@@ -146,7 +146,7 @@
     <ClInclude Include="7장-13.CIRCLE.h" />
     <ClInclude Include="7장-4.RECTANG.h" />
     <ClInclude Include="7장-8.RECCOL.h" />
-    <ClInclude Include="7장_13-1.COLOR.h" />
+    <ClInclude Include="7장-13-1.COLOR.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
