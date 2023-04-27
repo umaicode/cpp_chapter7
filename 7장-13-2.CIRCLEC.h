@@ -15,6 +15,7 @@ public:
         Circle :: Paint ( ) ;
         cout << ", the color number is " << Color::Col ( ) ;
     }
+    // operator ++ 연습하기
     void operator ++ ( ){
         Color :: operator++ ( ) ;
         Circle :: operator++ ( ) ;
